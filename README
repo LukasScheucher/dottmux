@@ -1,0 +1,7 @@
+step1) clone the .tmux directory to your home directory
+
+step2) create a symbolic link to .tmux.conf
+   $ ln -s ~/.tmux/tmux.conf ~/.tmux.conf
+
+step3) refresh tmux source
+  $ tmux source ~/.tmux.conf
