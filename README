@@ -5,3 +5,9 @@ step2) create a symbolic link to .tmux.conf
 
 step3) refresh tmux source
   $ tmux source ~/.tmux.conf
+
+step4) start tmux (use the -2 option to force tmux to use 256 colors)
+  $ tmux -2
+
+step4) install plugins listed in tmux.conf
+  prefix + I 
